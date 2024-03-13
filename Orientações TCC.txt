@@ -1,0 +1,26 @@
+Data de entrega: 01/12 ~ 06/12
+Quantas pessoas? no máximo 4
+Pode fazer sozinho?  Sim, mas costuma ser desafiador.
+
+Landing Page - Uma página apenas que contem várias sections, costumam fornecer toda informações sobre como tal serviço funciona ou produto.
+Mínimo de 5 Sections + header e footer
+Tem que ter algum form pra entrar contato.
+Responsividade - Celular
++ tablet se tiver coragem.
+
+Desejável um PPT falando do marking of(cores, temas, fontes, sites que você inspiração).
+:hover pelo menos em links
+::link externo tem que se sinalizado
+
+Tema: Qualquer coisa (- conteúdo ilegal)
+
+Rascunho em papel ajuda bastante!!!
+Figma - protótipo
+
+Referências:
+pv - loja gamer: https://infotec-tcc.netlify.app/index.html
+Heloisa, Isabelly, Vini e Johnata  - Loja de roupas: https://vijh-tcceurofarma.netlify.app/
+LP eurofarma - https://eurofarmacursos.netlify.app/
+Xicão - Restaurante: https://os-limas.netlify.app/home/home.html
+
+

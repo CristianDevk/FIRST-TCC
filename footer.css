@@ -1,0 +1,52 @@
+footer  {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    gap: 25px;
+    background-color: rgb(1, 0, 0);
+    padding: 40px;
+    border-top: 10px solid rgba(248, 157, 0, 0.688);
+    border-bottom: 10px solid rgba(245, 143, 8, 0.79);
+}
+
+
+.coluna--1, .coluna--2, .coluna--3, .coluna--4 {
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: rgb(113, 196, 255);
+    /* text-transform: uppercase; */
+    gap: 13px;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.coluna--1, .coluna--2, .coluna--3, .coluna--4 > h3 {
+    text-transform: uppercase;
+}
+
+.coluna--1, .coluna--2, .coluna--3, .coluna--4 > p {
+    color: rgba(255, 255, 255, 0.805);
+    text-transform: none;
+}
+
+.coluna--1 > p {
+    color: rgb(246, 198, 110);
+    text-transform: none;
+}
+
+ .coluna--2 > p {
+    color: rgb(255, 208, 120);
+    text-transform: none;
+}
+
+ .coluna--3 > p {
+    color: rgb(255, 218, 126);
+    text-transform: none;
+}
+
+ .coluna--4 > p {
+    color: rgb(255, 203, 107);
+    text-transform: none;
+}

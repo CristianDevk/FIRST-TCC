@@ -1,0 +1,225 @@
+@media (max-width: 800px) {
+
+	.jogos_alta {
+		flex-direction: column;
+	}
+
+	.logo {
+      padding-left: -10px;
+	}
+    .sanfona-2 {
+		width: 80%;
+    }
+
+	.sanfona-3 {
+		width: 80%;
+	}
+
+	.sanfona-4 {
+		width: 80%;
+
+	}
+
+	.sanfona-5 {
+		width: 80%;
+		display: none;
+	
+	}
+
+	.sanfona--produtos {
+		width: 497;
+	}
+
+	.sect--hoje {
+		font-size: 30px;
+		display: none;
+	}
+
+	.cont--top {
+		flex-direction: column;
+	}
+}
+
+
+@media (max-width: 1520px) {
+	.fa-bars {
+		display: block;
+	}
+	.sanfona--produtos {
+		display: none;
+	}
+
+}
+
+@media (max-width: 1052px) {
+
+	.sect {
+		display: none;
+	}
+
+	.sect--promo{
+		display: none;
+	}
+	
+	.sect--hoje{
+		display: none;
+	}
+
+	.btn--login {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+
+	.mobile--promo {
+		display: block;
+	}
+	
+	.principal {
+		/* background-image: none; */
+		width: -2px;
+		background-size: auto;
+	}
+	.segundario {
+		background-image: url(img/jack.png);
+		background-size: cover;
+		background-attachment: scroll;
+		
+		width: -2px;
+		font-size: 20px;
+		height: 100vw;
+	}
+	
+}
+
+@media (max-width: 850px) {
+
+	.cont--promo {
+		font-size: 16px;
+	}
+	.sec--box {
+		height: 100vh;
+	}
+	.cont--novidades {
+		flex-direction: column;
+	}
+	.box--1 {
+		width: 100%;
+	}
+	.box--2 {
+		width: 100%;
+	}
+
+	.pesquisa {
+		border-bottom: transparent;
+		display: none;
+	}
+
+	.button {
+		display: none;
+	}
+
+	.sect--promo {
+		display: none;
+	}
+
+	.item--nav {
+		position: absolute;
+		height: 100vh;
+		width: 100%;
+		background-color: aquamarine;
+		top: 0;
+		left: 0;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-size: 30px;
+		display: none;
+		gap: 50px;
+	}
+
+	.fa-bars{
+		display: block;
+	}
+
+	.fa-x{
+		z-index: 999;
+	}
+}
+
+@media (max-width: 1542px) {
+    .sanfona-2 {
+		margin-left: 82px;
+    }
+
+	.sanfona-3 {
+		margin-left: 82px;
+	}
+
+	.sanfona-4 {
+		margin-left: 82px;
+	}
+
+	.sanfona-5 {
+		margin-left: 82px;
+	}
+
+	.sanfona--produtos {
+		width: 497;
+	}
+
+	.cont--top {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 1520px) {
+	.fa-bars {
+		display: block;
+	}
+	.sanfona--produtos {
+		display: none;
+	}
+
+}
+
+@media (max-width: 800px) {
+	.btn--login {
+		display: none;
+	}
+
+	.cont--promo {
+		font-size: 16px;
+	}
+	.sec--box {
+		height: 100vh;
+	}
+	.cont--novidades {
+		flex-direction: column;
+	}
+	.box--1 {
+		width: 100%;
+	}
+	.box--2 {
+		width: 100%;
+	}
+
+	.pesquisa {
+		border-bottom: transparent;
+		display: none;
+	}
+
+	.button {
+		display: none;
+	}
+}
+
+@media (max-width: 1500px) {
+	footer {
+		display: flex;
+		flex-direction: column;
+
+	}
+}
+	

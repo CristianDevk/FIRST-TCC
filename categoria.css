@@ -1,0 +1,164 @@
+@font-face {
+    font-family: terror;
+    src: url(ghastly_panic/Ghastly\ Panic.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #111;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0 auto;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.titulo--cate {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    height: 80px;
+}
+
+
+.terror {
+    text-align: center;
+    height: 300px;
+    font-family: 'terror';
+    color: rgb(187, 48, 48);
+    font-size: 300px;
+}
+
+.ação {
+    text-align: center;
+    height: 300px;
+    font-family: 'Concert One', cursive;
+    color: white;
+    border:  solid none;
+}
+
+.aventura {
+    text-align: center;
+    height: 300px;
+    font-family: 'Kenia', cursive;
+    color: rgb(20, 228, 20);
+    border:  solid none;
+    background-position: bottom;
+}
+
+.luta {
+    text-align: center;
+    height: 400px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: blue;
+    border:  solid none;
+}
+
+.jogos-antigos {
+    text-align: center;
+    height: 300px;
+    font-family: 'Press Start 2P', cursive;
+    color: gold;
+    border:  solid none;
+}
+
+.categoria_jogo{
+    font-size: 50px;
+}
+
+.categoria_terror {
+    font-size: 70px;
+    color: rgb(167, 20, 0);
+}
+
+.categoria_antigos {
+    font-size: 35px;
+    padding: 36px;
+}
+
+.fundo_luta {
+    background-image: url(img-categorias/coringa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fundo_terror {
+    background-image: url(img/jack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.fundo_ação {
+    background-image: url(img-categorias/viloes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fundo_aventura {
+    background-image: url(img-categorias/jogosAntigos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fundo_antigo {
+    background-image: url(img-categorias/pelucia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fundo_terror:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.fundo_ação:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.fundo_aventura:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.fundo_luta:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.fundo_antigo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.grad {
+    background-image: linear-gradient(40deg, rgba(103,87,255,1) 0%, rgba(255,17,235,0.7633410672853829) 35%, rgb(0, 195, 255) 100%);
+    /* Tira a cor do texto */
+    -webkit-text-fill-color: transparent;
+    /* Coloca a cor de fundo com a cor */
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+

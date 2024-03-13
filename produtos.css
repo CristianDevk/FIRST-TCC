@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.começo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 30px 40px 20px;
+}
+
+
+.menu-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    font-size: 23px;
+    margin-top: 5%;
+    color: white;
+}
+
+.logotipo {
+    width: 125px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: 0.5s; 
+}
+
+.login {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.btn--login {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgb(46, 45, 48);
+    color: white;
+    cursor: pointer;
+}
+
+.titulo {
+    font-size: 35px;
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.imagem_de_começo {
+    height: 500px;
+    font-size: 50px;
+}
+
+#arrow_right {
+    border-radius: 100px;
+    position: absolute; 
+    width: 30px;
+    top: 80%;
+    right: 10px;
+    color: white;
+}
+
+#arrow_left {
+    border-radius: 100px;
+    position: absolute; 
+    width: 30px;
+    top: 80%;
+    left: 10px;
+    color: white;
+}
+
+.futuro {
+    font-size: 40px;
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome  26+, Opera 12+, Safari 7+ */
+    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    text-align: center;
+}
+
+.em_alta {
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 205px;
+    background-size: cover;
+    background-attachment: scroll;
+    background-image: url(img/fundo.png);
+}
+
+.jogos_alta {
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 150px; */
+    gap: 50px;
+} 
+
+.img_cod {
+    width: 350px;
+    height: 450px;
+    border: 2px solid #111;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img_god_of-war {
+    width: 350px;
+    height: 450px;
+    border: 2px solid #111;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img_elden_ring {
+    width: 350px;
+    height: 450px;
+    border: 2px solid #111;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card_jogo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.card_jogo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.introdução_game {
+    border: 10px solid rgba(0, 0, 0, 0.573);
+    color: #c8e5ffc8;
+    width: 350px;
+    height: 300px;
+    padding: 20px 10px 20px 10px; 
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    background-color: rgba(3, 0, 0, 0.556);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card_jogo:hover > .introdução_game {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateY(0%);
+    transition: 1s; 
+}
+
+.preço_antigo {
+    font-size: 32px;
+}
+
+.compra {
+    width: 170px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 10px;
+    color: green;
+    border: 2px solid darkblue;
+    background-color: aliceblue;
+    margin-left: -80px;
+    cursor: pointer;
+}
+
+.gow {
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+}
+
+.elder {
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+}
+
+.titulo--jogo {
+    font-size: 30px;
+}
+
+
+.preço {
+    background-color: #111;
+    position: absolute;
+    bottom: 200px;
+    right: 2px;
+    width: 230px;
+    border: 2px solid    #1c22d4;
+}
+
+.todos_os_jogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 0px 100px 90px;  
+} 
+
+.gta {
+    width: 280px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.far_cry {
+    width: 280px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.dark_souls {
+    width: 280px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cyberpunk {
+    width: 280px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.the_last_of_us {
+    width: 280px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.The_Witcher {
+    width: 280px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.titulo_gta-5 {
+    color: white;
+    border: 2px solid white;
+    width: 280px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.titulo_far_cry {
+    color: white;
+    border: 2px solid white;
+    width: 280px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.titulo_dark_souls {
+    color: white;
+    border: 2px solid white;
+    width: 280px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.titulo_cyberpunk {
+    color: white;
+    border: 2px solid white;
+    width: 280px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.titulo_the_last {
+    color: white;
+    border: 2px solid white;
+    width: 280px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.titulo_The_Witcher { 
+    color: white;
+    border: 2px solid white;
+    width: 280px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.card {
+    padding-bottom: 100px;
+    cursor: pointer;
+} 
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.rodape {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    background-color: rgb(109, 107, 107);
+    color: white;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.redes_sociais {
+    color: aliceblue;
+}
+
+.jogos_compra {
+    width: 850px;
+    border: 2px solid white;
+    background-color: #2b2929;
+}
+
+.img_compra {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.titulo_compra {
+    color: green;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.preço_compra {
+    color: forestgreen;
+    font-size: 32px;
+}
+
+.primeira_parte {
+    display: flex;
+}
+
+.segunda_parte {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn--comprar {
+    border-radius: 40px;
+    background-color: rgb(83, 95, 79);
+    border: 2px solid #1c22d4;
+    color: white;
+    cursor: pointer;
+}
+
+.imagem_de_começos {
+    position: relative;
+    height: 80vh;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+}
+
+.carrosel {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.btn--avancar, .btn--voltar {
+    position: absolute;
+    top: 50%;
+    font-size: 36px;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.fa-chevron-right {
+    top: 50%;
+    right: 0;
+}
+
+.fa-chevron-left {
+    left: 0;
+    top: 50%;
+}
+
+.visivel {
+    display: block;
+}
+
+.bounce-in-right{animation:bounce-in-right 1.1s both}
+
+/* ----------------------------------------------
+* Generated by Animista on 2022-12-8 17:39:29
+* Licensed under FreeBSD License.
+* See http://animista.net/license for more info. 
+* w: http://animista.net, t: @cssanimista
+* ---------------------------------------------- */
+
+@keyframes bounce-in-right{0%{transform:translateX(600px);animation-timing-function:ease-in;opacity:0}38%{transform:translateX(0);animation-timing-function:ease-out;opacity:1}55%{transform:translateX(68px);animation-timing-function:ease-in}72%{transform:translateX(0);animation-timing-function:ease-out}81%{transform:translateX(32px);animation-timing-function:ease-in}90%{transform:translateX(0);animation-timing-function:ease-out}95%{transform:translateX(8px);animation-timing-function:ease-in}100%{transform:translateX(0);animation-timing-function:ease-out}}
+
+#fade, #modal {
+    transition: 5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fade {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 1, 0.815);
+    z-index: 5;
+} 
+
+#modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    z-index: 10;
+}
+
+.x {
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+
+#fade.hide {
+    display: none;
+}
+
+#modal.hide {
+    top: 50%;
+}
+
+.footer{
+    font-size: 24px;
+    color: rgb(46, 82, 161);
+}
+
+.titulo_jogos {
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    font-size: 35px;
+}
+
+.jogos {
+    background-color: #2b2929;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.titulo_promoção {
+    font-size: 70px;
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.burguer, .fechar {
+    /* Necessario  */
+    display: none;
+    width: 32px;
+    height: 32px;
+    color: white;
+    
+}
+
+
+
